@@ -66,3 +66,50 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+##　学んだこと
+・ES7 React/Redux/GraphQL/React-Native snippets　をインストールすると、rcfeでファイル名と同じ名前のfunctionを作ってくれる。
+
+#### ・マテリアル UI　を使用
+https://material-ui.com/
+
+#### アイコン
+https://material-ui.com/components/icons/#icons
+アイコンをクリックするとimportがコピペできる。
+
+#### UIの基本的な作り方
+1.大きなブロック分け（コンポーネント分け）
+2.コンポーネントの中をさらにコンポーネント分け
+3.最小コンポーネントごとにjsファイルとcssファイルを用意する
+
+#### firebaseの追加方法
+yarn add firebase
+
+#### redux　について
+アプリ全体のstateを管理できる
+
+#### firebase系の最後のコマンド
+firebase login 
+firebase init >> Hosting >> existing projectで現在のプロジェクトを選択
+npm run build
+firebase deploy
+
+#### firebase hostingを使えばそのままデプロイできる
+https://firebase.google.com/docs/hosting/quickstart?hl=ja
+
+#### うまくいかなかったこと
+import FlipMove from "react-flip-move";
+FlipMoveがうまく再現できなかった。
+>　立ち上げ直したらうまくいった
+
+### link
+https://linkedin-clone-yt-5be2d.web.app/
+
+### dotenvについて
+create-react-app　で作成したprojectなら　.envファイルに
+REACT_APP_xxx = "API_KEY"
+名前の最初にREACT_APPをつけなければいけない。
+パッケージはもともと組み込まれている
+
+
+
