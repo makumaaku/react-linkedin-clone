@@ -67,6 +67,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+### プロジェクトの作成
+npx create-react-app name --template redux
+
+
 ## 学んだこと
 ・ES7 React/Redux/GraphQL/React-Native snippets　をインストールすると、rcfeでファイル名と同じ名前のfunctionを作ってくれる。
 
