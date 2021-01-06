@@ -111,5 +111,8 @@ REACT_APP_xxx = "API_KEY"
 名前の最初にREACT_APPをつけなければいけない。
 パッケージはもともと組み込まれている
 
+## Reduxのdevtool
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=ja
+ここからインストール
 
 
